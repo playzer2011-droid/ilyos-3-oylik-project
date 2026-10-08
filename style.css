@@ -238,11 +238,7 @@ ul {
   margin-bottom: 15px;
   font-size: 1.2rem;
 }
-.shkaf-video {
-  width: 1160px;
-  height: 815px;
-  border-radius: 20px;
-}
+
 .wood__item {
   font-size: 14px;
   color: #cccccc;
@@ -269,7 +265,7 @@ ul {
   gap: 20px;
 }
 
-.slider__box img {
+.slider__box iframe {
   position: absolute;
   width: 1306px;
   height: 806px;
@@ -278,10 +274,12 @@ ul {
   transition: 0.3s ease-in;
 }
 .slider__box img:hover {
-  transform: scale(0.9);
+  transform: scale(1.2);
   box-shadow: 5px 10px 50px brown;
 }
-
+.slider__box {
+  margin-bottom: 600px;
+}
 .slider__arrow {
   background: none;
   border: none;
@@ -366,7 +364,7 @@ ul {
   height: 130px;
   border-radius: 17px;
   left: 750px;
-  top: 4160px;
+  top: 3960px;
   transition: 0.3s ease-in;
 }
 .about__img img:hover {
@@ -379,7 +377,7 @@ ul {
   height: 130px;
   border-radius: 17px;
   left: 750px;
-  top: 4430px;
+  top: 4230px;
   transition: 0.3s ease-in;
 }
 .about___img img:hover {
@@ -389,7 +387,7 @@ ul {
 .about_img img {
   position: absolute;
   left: 650px;
-  top: 4250px;
+  top: 4060px;
   width: 160px;
   height: 160px;
   border-radius: 17px;
